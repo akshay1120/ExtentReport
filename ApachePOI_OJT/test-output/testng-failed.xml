@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [GridTest]" parallel="tests">
+  <test name="Firefox Test(failed)" parallel="tests">
+    <parameter name="Port" value="4446"/>
+    <classes>
+      <class name="grid.Demo">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifyTitle"/>
+          <include name="verifyUrl"/>
+        </methods>
+      </class> <!-- grid.Demo -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test name="Chrome Test(failed)" parallel="tests">
+    <parameter name="Port" value="4445"/>
+    <classes>
+      <class name="grid.Demo">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifyTitle"/>
+          <include name="verifyUrl"/>
+        </methods>
+      </class> <!-- grid.Demo -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [GridTest] -->

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="basic.DahboardPage">
+      <class name="login.Login_5">
         <methods>
-          <include name="Dahboard_Page"/>
+          <include name="test_1"/>
         </methods>
-      </class> <!-- basic.DahboardPage -->
+      </class> <!-- login.Login_5 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

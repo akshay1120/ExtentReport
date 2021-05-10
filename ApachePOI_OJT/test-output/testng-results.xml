@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30659" started-at="2021-05-09T08:31:15Z" finished-at="2021-05-09T08:31:46Z">
+  <suite name="Default suite" duration-ms="17742" started-at="2021-05-10T05:25:21Z" finished-at="2021-05-10T05:25:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30659" started-at="2021-05-09T08:31:15Z" finished-at="2021-05-09T08:31:46Z">
+    <test name="Default test" duration-ms="17742" started-at="2021-05-10T05:25:21Z" finished-at="2021-05-10T05:25:39Z">
       <class name="users_Table.Users_Table">
-        <test-method status="PASS" signature="usersTable_1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:users_Table.Users_Table@6f7fd0e6]" name="usersTable_1" duration-ms="7161" started-at="2021-05-09T14:01:16Z" data-provider="dp_register" finished-at="2021-05-09T14:01:23Z">
+        <test-method status="PASS" signature="usersTable_1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:users_Table.Users_Table@6f7fd0e6]" name="usersTable_1" duration-ms="4554" started-at="2021-05-10T10:55:22Z" data-provider="dp_register" finished-at="2021-05-10T10:55:27Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usersTable_1 -->
-        <test-method status="PASS" signature="usersTable_1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:users_Table.Users_Table@6f7fd0e6]" name="usersTable_1" duration-ms="5644" started-at="2021-05-09T14:01:23Z" data-provider="dp_register" finished-at="2021-05-09T14:01:29Z">
+        <test-method status="PASS" signature="usersTable_1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:users_Table.Users_Table@6f7fd0e6]" name="usersTable_1" duration-ms="3065" started-at="2021-05-10T10:55:27Z" data-provider="dp_register" finished-at="2021-05-10T10:55:30Z">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usersTable_1 -->
-        <test-method status="PASS" signature="usersTable_1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:users_Table.Users_Table@6f7fd0e6]" name="usersTable_1" duration-ms="5169" started-at="2021-05-09T14:01:29Z" data-provider="dp_register" finished-at="2021-05-09T14:01:34Z">
+        <test-method status="PASS" signature="usersTable_1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:users_Table.Users_Table@6f7fd0e6]" name="usersTable_1" duration-ms="3084" started-at="2021-05-10T10:55:30Z" data-provider="dp_register" finished-at="2021-05-10T10:55:33Z">
           <params>
             <param index="0">
               <value>
@@ -145,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usersTable_1 -->
-        <test-method status="PASS" signature="usersTable_1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:users_Table.Users_Table@6f7fd0e6]" name="usersTable_1" duration-ms="5866" started-at="2021-05-09T14:01:34Z" data-provider="dp_register" finished-at="2021-05-09T14:01:40Z">
+        <test-method status="PASS" signature="usersTable_1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:users_Table.Users_Table@6f7fd0e6]" name="usersTable_1" duration-ms="3045" started-at="2021-05-10T10:55:33Z" data-provider="dp_register" finished-at="2021-05-10T10:55:36Z">
           <params>
             <param index="0">
               <value>
@@ -191,7 +191,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usersTable_1 -->
-        <test-method status="PASS" signature="usersTable_1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:users_Table.Users_Table@6f7fd0e6]" name="usersTable_1" duration-ms="6091" started-at="2021-05-09T14:01:40Z" data-provider="dp_register" finished-at="2021-05-09T14:01:46Z">
+        <test-method status="PASS" signature="usersTable_1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:users_Table.Users_Table@6f7fd0e6]" name="usersTable_1" duration-ms="3063" started-at="2021-05-10T10:55:36Z" data-provider="dp_register" finished-at="2021-05-10T10:55:39Z">
           <params>
             <param index="0">
               <value>

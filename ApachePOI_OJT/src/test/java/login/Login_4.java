@@ -17,10 +17,14 @@ public class Login_4
 		String data = null ;
 		FileInputStream fis = new FileInputStream("Data.xlsx");
 		Workbook wb = WorkbookFactory.create(fis);
-		Sheet sh = wb.getSheet("Sheet1");
-		for(int i=0;i<sh.getPhysicalNumberOfRows();i++) {
+		Sheet sh = wb.getSheet("Sheet3");
+		
+		for(int i=0 ; i<sh.getPhysicalNumberOfRows() ; i++) 
+		{
 			int col =sh.getRow(i).getLastCellNum();
-			for(int j=0;j<col;j++) {
+			
+			for(int j=0 ; j<col-3 ; j++) 
+			{
 				Cell cell= sh.getRow(i).getCell(j);	
 				
 				if(cell.getCellTypeEnum()==CellType.STRING) 
@@ -30,9 +34,9 @@ public class Login_4
 				
 				else if (cell.getCellTypeEnum()==CellType.NUMERIC)
 				{
-					data = String.valueOf(cell.getNumericCellValue());
+					data = String.valueOf((long)cell.getNumericCellValue());
 				}
-				System.out.print(data + " ");	
+				System.out.print(data + "    ");	
 			}
 			System.out.println();
 		}

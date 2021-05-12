@@ -6,14 +6,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Demo 
 {
-	public void AutoIt () throws Exception
+	public static void main(String[] args) throws Exception 
 	{
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
-		driver.get("file:///E:/AutoIT/Upload.html");
+		driver.get("file:///C:/AutoIT/upload.html");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("input")).click();
 		Thread.sleep(3000);
-		Runtime.getRuntime().exec("E:\\AutoIT\\demo.exe");
+		Runtime.getRuntime().exec("C:\\AutoIT\\demo.exe");
 	}
 }
